@@ -1,4 +1,5 @@
 ba77a8d9c24df0451d53f9a26073cf9ce09398f94ce530be4ab1a41d19fdbcf6        1017  .gitignore
+d557539df68e771cc1eedcc91d13f70fca930e508d11eedcafa4b15db49e3744       17023  LICENSE
 5bc1403b752e6a38d3cc6d28b06ba79b8797bc2da89ba7cfc0d506c08a98e926        5750  README.md
 8b347534bd2ae7a9b4c02bdf609b2f8d23c82fbe2d652c080601b24145ec7bd1        2488  frozen_inputs_and_results/README.md
 b8f396d9fa7256c8ac960249f86c9eebc2061411c7841d1e247ed15779d2a775       80128  frozen_inputs_and_results/sscmek_B2_null.npy
