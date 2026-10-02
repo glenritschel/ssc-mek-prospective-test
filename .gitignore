@@ -1,0 +1,25 @@
+# Nothing in this file excludes deposit content. Every pattern here is either a
+# build artifact or operating-system metadata, and MANIFEST_SHA256.txt covers
+# every file git does track, .gitignore included.
+#
+# This file exists because make_manifest.py and git disagree about what to skip.
+# make_manifest.py omits __pycache__ when walking, so a stray bytecode directory
+# never enters the manifest - but git would commit it, publishing repository
+# content the manifest says nothing about. That is the one failure the manifest
+# cannot detect by construction, so it is prevented here instead.
+
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Windows marks files copied from a download with an NTFS alternate data stream.
+# WSL materializes those streams as real files, and seven of them were caught in
+# this repository's first manifest run on 2026-10-02. make_manifest.py now
+# refuses to write a manifest while any is present; this keeps them out of git.
+*:Zone.Identifier
+.DS_Store
+Thumbs.db
+desktop.ini
+
+*~
+*.swp

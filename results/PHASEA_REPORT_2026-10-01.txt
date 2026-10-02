@@ -1,0 +1,297 @@
+=== SSC-MEK PHASE A REPORT BEGIN ===
+NO SCORE AND NO DISEASE SIGNATURE WAS COMPUTED IN THIS NOTEBOOK
+LIBRARY {'sigs': 90834, 'compounds': 26425, 'cells': 58}
+--- CELL LINES (QC-pass exemplar trt_cp signatures) ---
+cell_iname  n_sigs  n_cmpds cell_type                       cell_lineage           primary_disease                            subtype growth_pattern
+      U2OS   14262    14262     tumor                               bone               bone cancer                       osteosarcoma       adherent
+      VCAP   12016    12016     tumor                           prostate           prostate cancer                     adenocarcinoma       adherent
+       PC3    8306     8306     tumor                           prostate           prostate cancer                     adenocarcinoma            mix
+      MCF7    7026     7026     tumor                             breast             breast cancer                     adenocarcinoma       adherent
+      A375    6700     6700     tumor                               skin               skin cancer                           melanoma       adherent
+      HT29    6350     6350     tumor                    large_intestine              colon cancer                     adenocarcinoma       adherent
+      HA1E    6042     6042    normal                             kidney      normal kidney sample               normal kidney sample        unknown
+    HCC515    5276     5276     tumor                               lung               lung cancer                          carcinoma       adherent
+      A549    4926     4926     tumor                               lung               lung cancer           non small cell carcinoma       adherent
+     HEPG2    4285     4285     tumor                              liver              liver cancer                          carcinoma       adherent
+       NPC    1921     1921    normal             central_nervous_system   normal stem cell sample            normal stem cell sample        unknown
+       ASC    1776     1776    normal                        soft_tissue normal soft tissue sample          normal soft tissue sample       adherent
+    MCF10A    1367     1367     tumor                             breast             breast cancer                          carcinoma       adherent
+      HELA    1326     1326     tumor                             cervix           cervical cancer                     adenocarcinoma       adherent
+      YAPC    1080     1080     tumor                           pancreas         pancreatic cancer                          carcinoma       adherent
+      THP1     863      863     tumor haematopoietic_and_lymphoid_tissue                  leukemia   acute myelogenous leukemia (aml)     suspension
+  MDAMB231     769      769     tumor                             breast             breast cancer                     adenocarcinoma       adherent
+       SKB     740      740     tumor                            unknown                   unknown                            unknown        unknown
+    HEK293     676      676    normal                             kidney      normal kidney sample     normal embryonal kidney sample       adherent
+    JURKAT     596      596     tumor haematopoietic_and_lymphoid_tissue                  leukemia acute lymphoblastic leukemia (all)     suspension
+     HUVEC     316      316    normal                            unknown                   unknown       normal umbilical vein sample        unknown
+       AGS     297      297     tumor                            stomach            gastric cancer                     adenocarcinoma       adherent
+      U937     290      290     tumor haematopoietic_and_lymphoid_tissue                  lymphoma                    b-cell lymphoma     suspension
+    HCT116     250      250     tumor                    large_intestine              colon cancer                          carcinoma       adherent
+   NCIH596     201      201     tumor                               lung               lung cancer      non small cell lung carcinoma       adherent
+     NOMO1     170      170     tumor haematopoietic_and_lymphoid_tissue                  leukemia       acute myeloid leukemia (aml)     suspension
+       SKL     166      166    normal                        soft_tissue normal soft tissue sample          normal soft tissue sample        unknown
+   NCIH508     165      165     tumor                    large_intestine              colon cancer                     adenocarcinoma            mix
+      CD34     147      147    normal                            unknown                   unknown            normal stem cell sample        unknown
+     SKBR3     143      143     tumor                             breast             breast cancer                     adenocarcinoma       adherent
+      BT20     140      140     tumor                             breast             breast cancer                          carcinoma       adherent
+    SKMEL5     133      133     tumor                               skin               skin cancer                           melanoma       adherent
+     KMS34     127      127     tumor haematopoietic_and_lymphoid_tissue                   myeloma                            myeloma     suspension
+     NKDBA     121      121     tumor                            unknown                   unknown                            unknown        unknown
+  NCIH2073     119      119     tumor                               lung               lung cancer      non small cell lung carcinoma       adherent
+     NALM6     118      118     tumor haematopoietic_and_lymphoid_tissue                  leukemia acute lymphoblastic leukemia (all)     suspension
+   OCILY19     115      115     tumor haematopoietic_and_lymphoid_tissue                  lymphoma                    b-cell lymphoma     suspension
+       NEU     111      111    normal             central_nervous_system   normal stem cell sample            normal stem cell sample        unknown
+      HME1     109      109     tumor                             breast                  leukemia   acute myelogenous leukemia (aml)       adherent
+      TMD8      96       96     tumor haematopoietic_and_lymphoid_tissue                  lymphoma                           lymphoma     suspension
+    HS578T      95       95     tumor                             breast             breast cancer                          carcinoma       adherent
+    OCILY3      93       93     tumor haematopoietic_and_lymphoid_tissue                  lymphoma                    b-cell lymphoma     suspension
+      K562      91       91     tumor haematopoietic_and_lymphoid_tissue                  leukemia chronic myelogenous leukemia (cml)     suspension
+       PHH      80       80    normal haematopoietic_and_lymphoid_tissue       normal blood sample                normal blood sample        unknown
+     P1A82      79       79     tumor                            unknown                   unknown                            unknown        unknown
+      HAP1      79       79     tumor                            unknown                   unknown     chronic myeloid leukemia (cml)        unknown
+     SW480      76       76     tumor                    large_intestine              colon cancer                     adenocarcinoma       adherent
+      HBL1      75       75     tumor haematopoietic_and_lymphoid_tissue                  lymphoma                           lymphoma        unknown
+    SHSY5Y      71       71     tumor                  autonomic_ganglia             neuroblastoma                      neuroblastoma            mix
+     H1299      70       70     tumor                               lung               lung cancer           non small cell carcinoma       adherent
+   OCILY10      63       63     tumor                           placenta                  lymphoma                    b-cell lymphoma        unknown
+     LNCAP      58       58     tumor                           prostate           prostate cancer                          carcinoma       adherent
+      MINO      56       56     tumor haematopoietic_and_lymphoid_tissue                  lymphoma                    b-cell lymphoma     suspension
+      BJAB      55       55     tumor haematopoietic_and_lymphoid_tissue                  lymphoma                           lymphoma     suspension
+      HL60      55       55     tumor haematopoietic_and_lymphoid_tissue                  leukemia   acute myelogenous leukemia (aml)     suspension
+     HPTEC      55       55    normal                            unknown                   unknown           normal epithelium sample        unknown
+      HUH7      45       45     tumor                              liver              liver cancer                          carcinoma       adherent
+   HEK293T       1        1    normal                            unknown                   unknown                            unknown        unknown
+--- MOA VOCABULARY (MEK / ERK / MAPK) ---
+moa
+P38 MAPK inhibitor                   20
+MEK inhibitor                        17
+MAP kinase inhibitor                  8
+MAPK-interacting kinase inhibitor     1
+MAP kinase phosphatase inhibitor      1
+--- COMPOUNDS ---
+                            why       pert_id             cmap_name                                                                                                                moa                                         target                   inchi_key  n_lib_sigs  n_cells
+      MEK class (moa or target) BRD-K57080016           selumetinib                                                                                                      MEK inhibitor                                         MAP2K1 CYOHGALHFOKKQC-UHFFFAOYSA-N          34       34
+      MEK class (moa or target) BRD-K49865102            PD-0325901                                                        MAP kinase inhibitor|MEK inhibitor|Protein kinase inhibitor                                         MAP2K1 SUDAHWBOROXANE-SECBINFHSA-N          25       25
+      MEK class (moa or target) BRD-K12343256            trametinib                                                                                                      MEK inhibitor                                  MAP2K1|MAP2K2 LIRYPHYGHXZJBZ-UHFFFAOYSA-N          22       22
+      MEK class (moa or target) BRD-K05104363             PD-184352                                                                                                      MEK inhibitor                                         MAP2K1 GFMMXOIFOQCCGU-UHFFFAOYSA-N          17       17
+      MEK class (moa or target) BRD-K18787491                U-0126                                                                                                      MEK inhibitor                                  MAP2K1|MAP2K2 DVEXZJFMOKTQEZ-JYFOCSDGSA-N          17       17
+      MEK class (moa or target) BRD-K73368362             BIX-02189                                                                                                      MEK inhibitor                                   MAP2K5|MAPK7 HOMJAAIVTDVQJA-IZHYLOQSSA-N          16       16
+      MEK class (moa or target) BRD-K62810658              PD-98059                                                                                 MAP kinase inhibitor|MEK inhibitor                                         MAP2K1 QFWCYNPOPKQOKV-UHFFFAOYSA-N          15       15
+      MEK class (moa or target) BRD-K89014967             AS-703026                                                                                                      MEK inhibitor                                  MAP2K1|MAP2K2 VIUAUNHCRHHYNE-JTQLQIEISA-N          14       14
+      MEK class (moa or target) BRD-K46419649                U-0126                                                                                                      MEK inhibitor                                  MAP2K1|MAP2K2 DVEXZJFMOKTQEZ-UHFFFAOYSA-N          12       12
+      MEK class (moa or target) BRD-K85751432           refametinib                                                                                                      MEK inhibitor                                  MAP2K1|MAP2K2 RDSACQWTXKSHJT-NSHDSACASA-N          12       12
+      MEK class (moa or target) BRD-K64538373            Ro-4987655                                                                                                      MEK inhibitor                                         MAP2K1 FIMYFEGKMOCQKT-UHFFFAOYSA-N          11       11
+      MEK class (moa or target) BRD-K06753942             nobiletin                                                                                                      MEK inhibitor                                         MAP2K1 MRIAQLRQZPPODS-UHFFFAOYSA-N          10       10
+      MEK class (moa or target) BRD-K53523901            arctigenin                                                                                                      MEK inhibitor                                    CHUK|MAP2K1 NQWVSMVXKMHKTF-JKSUJKDBSA-N          10       10
+      MEK class (moa or target) BRD-K26667523               TAK-733                                                                                                      MEK inhibitor                                         MAP2K1 RCLQNICOARASSR-SECBINFHSA-N           9        9
+      MEK class (moa or target) BRD-K88677950             PD-198306                                                                                 MAP kinase inhibitor|MEK inhibitor                                  MAP2K1|MAP2K2 UHAXDAKQGVISBZ-UHFFFAOYSA-N           9        9
+      MEK class (moa or target) BRD-A50454580            PD-0325901                                                        MAP kinase inhibitor|MEK inhibitor|Protein kinase inhibitor                                         MAP2K1 SUDAHWBOROXANE-UHFFFAOYSA-N           8        8
+      MEK class (moa or target) BRD-K91701654                U-0126                                                                                                      MEK inhibitor                                  MAP2K1|MAP2K2 DVEXZJFMOKTQEZ-MJZABRMRSA-N           4        4
+PD-0325901 (the named compound) BRD-K49865102            PD-0325901                                                        MAP kinase inhibitor|MEK inhibitor|Protein kinase inhibitor                                         MAP2K1 SUDAHWBOROXANE-SECBINFHSA-N          25       25
+PD-0325901 (the named compound) BRD-A50454580            PD-0325901                                                        MAP kinase inhibitor|MEK inhibitor|Protein kinase inhibitor                                         MAP2K1 SUDAHWBOROXANE-UHFFFAOYSA-N           8        8
+           reference: bosutinib BRD-K99964838             bosutinib                                                                                 Abl kinase inhibitor|Src inhibitor                    ABL1|BCR|CAMK2G|HCK|LYN|SRC UBPYILGKFZZVDX-UHFFFAOYSA-N          25       25
+           reference: dasatinib BRD-K49328571             dasatinib        Abl kinase inhibitor|Ephrin inhibitor|KIT inhibitor|PDGFR inhibitor|Src inhibitor|Tyrosine kinase inhibitor ABL1|BCR|EPHA2|FYN|KIT|LCK|LYN|PDGFRB|SRC|YES1 ZBNZXTGUTAYRHI-UHFFFAOYSA-N          29       29
+       reference: mycophenolate BRD-K92428153 mycophenolate-mofetil Dehydrogenase inhibitor|Hydroxycarboxylic acid receptor agonist|IMPDH inhibitor|IMPase inhibitor|Immunosuppressant                                  IMPDH1|IMPDH2 RTGDFNSFWBGLEC-SYZQJQIISA-N          20       20
+       reference: mycophenolate BRD-K31542390         BRD-K31542390                                                                                                                                                                   HPNSFSBZBAHARI-UHFFFAOYSA-N          10       10
+       reference: mycophenolate BRD-K63750851         BRD-K63750851                                                                                                                                                                   HPNSFSBZBAHARI-RUDMXATFSA-N          10       10
+          reference: nintedanib BRD-K49075727            nintedanib                                                                     FGFR inhibitor|PDGFR inhibitor|VEGFR inhibitor        FGFR1|FGFR3|FLT1|FLT4|KDR|PDGFRA|PDGFRB XZXHXSATPCNXJR-ZIADKAODSA-N          13       13
+--- CELL LINES PER COMPOUND ---
+selumetinib [BRD-K57080016] NPC:1 NCIH508:1 AGS:1 HCC515:1 HCT116:1 U937:1 H1299:1 VCAP:1 MDAMB231:1 HME1:1 SKBR3:1 PC3:1 HS578T:1 A375:1 LNCAP:1 MCF10A:1 BT20:1 HT29:1 YAPC:1 HELA:1 HEK293:1 JURKAT:1 MCF7:1 A549:1 MINO:1 OCILY19:1 HBL1:1 BJAB:1 SKMEL5:1 KMS34:1 NALM6:1 TMD8:1 HEPG2:1 HA1E:1
+PD-0325901 [BRD-K49865102] U2OS:1 HA1E:1 VCAP:1 A375:1 MCF10A:1 MDAMB231:1 HME1:1 HEK293:1 JURKAT:1 LNCAP:1 HS578T:1 BT20:1 HUVEC:1 SKBR3:1 HCC515:1 PC3:1 NPC:1 SKL:1 HEPG2:1 ASC:1 THP1:1 YAPC:1 HELA:1 MCF7:1 HAP1:1
+trametinib [BRD-K12343256] U2OS:1 A549:1 SKBR3:1 HCC515:1 MDAMB231:1 HS578T:1 BT20:1 MCF10A:1 HAP1:1 NALM6:1 HBL1:1 SKMEL5:1 KMS34:1 OCILY19:1 OCILY10:1 TMD8:1 K562:1 PC3:1 HA1E:1 MCF7:1 HEPG2:1 A375:1
+PD-184352 [BRD-K05104363] HEPG2:1 SKB:1 ASC:1 SKBR3:1 HCC515:1 MCF7:1 BT20:1 PC3:1 HS578T:1 HT29:1 HELA:1 A375:1 YAPC:1 HA1E:1 MCF10A:1 U2OS:1 HAP1:1
+U-0126 [BRD-K18787491] A549:1 HEPG2:1 HUH7:1 HA1E:1 MCF7:1 VCAP:1 HT29:1 A375:1 NALM6:1 K562:1 KMS34:1 OCILY19:1 HBL1:1 OCILY3:1 SKMEL5:1 OCILY10:1 U2OS:1
+BIX-02189 [BRD-K73368362] VCAP:1 THP1:1 HEK293:1 HELA:1 HEPG2:1 MDAMB231:1 A549:1 PC3:1 HA1E:1 SKL:1 A375:1 YAPC:1 NPC:1 ASC:1 MCF10A:1 HUVEC:1
+PD-98059 [BRD-K62810658] HUH7:1 SKB:1 ASC:1 THP1:1 VCAP:1 HEPG2:1 HCT116:1 MCF7:1 AGS:1 HCC515:1 HA1E:1 PC3:1 A375:1 HT29:1 A549:1
+AS-703026 [BRD-K89014967] PHH:1 MCF10A:1 SKB:1 ASC:1 HEPG2:1 HCC515:1 VCAP:1 HELA:1 THP1:1 A375:1 HEK293:1 HT29:1 YAPC:1 HAP1:1
+U-0126 [BRD-K46419649] MCF10A:1 HCC515:1 MCF7:1 HT29:1 PC3:1 A375:1 ASC:1 A549:1 HEPG2:1 SKB:1 HA1E:1 VCAP:1
+refametinib [BRD-K85751432] A549:1 HA1E:1 MCF10A:1 YAPC:1 HELA:1 HT29:1 HUVEC:1 PC3:1 A375:1 MDAMB231:1 MCF7:1 U2OS:1
+Ro-4987655 [BRD-K64538373] HA1E:1 A375:1 YAPC:1 JURKAT:1 THP1:1 HT29:1 PC3:1 MCF7:1 MCF10A:1 HELA:1 HEK293:1
+nobiletin [BRD-K06753942] A549:1 A375:1 ASC:1 PC3:1 HT29:1 MCF7:1 VCAP:1 HA1E:1 HEPG2:1 U2OS:1
+arctigenin [BRD-K53523901] PHH:1 HUH7:1 HT29:1 PC3:1 A375:1 SKB:1 HEPG2:1 HA1E:1 HCC515:1 MCF7:1
+TAK-733 [BRD-K26667523] HA1E:1 THP1:1 MDAMB231:1 MCF10A:1 HUVEC:1 HEK293:1 A549:1 JURKAT:1 YAPC:1
+PD-198306 [BRD-K88677950] JURKAT:1 PC3:1 HEPG2:1 HT29:1 VCAP:1 MCF7:1 A375:1 SKB:1 HA1E:1
+PD-0325901 [BRD-A50454580] ASC:1 PC3:1 MCF7:1 HEPG2:1 A375:1 HA1E:1 HCC515:1 NPC:1
+U-0126 [BRD-K91701654] HCC515:1 A375:1 MCF7:1 HEPG2:1
+PD-0325901 [BRD-K49865102] U2OS:1 HA1E:1 VCAP:1 A375:1 MCF10A:1 MDAMB231:1 HME1:1 HEK293:1 JURKAT:1 LNCAP:1 HS578T:1 BT20:1 HUVEC:1 SKBR3:1 HCC515:1 PC3:1 NPC:1 SKL:1 HEPG2:1 ASC:1 THP1:1 YAPC:1 HELA:1 MCF7:1 HAP1:1
+PD-0325901 [BRD-A50454580] ASC:1 PC3:1 MCF7:1 HEPG2:1 A375:1 HA1E:1 HCC515:1 NPC:1
+bosutinib [BRD-K99964838] MCF10A:1 NPC:1 HCC515:1 HA1E:1 A549:1 K562:1 OCILY3:1 BJAB:1 OCILY19:1 NALM6:1 HBL1:1 THP1:1 KMS34:1 SKMEL5:1 MDAMB231:1 SKL:1 YAPC:1 HEK293:1 HUVEC:1 PC3:1 HELA:1 A375:1 U2OS:1 MCF7:1 HAP1:1
+dasatinib [BRD-K49328571] MCF10A:1 MCF7:1 SKMEL5:1 HBL1:1 OCILY3:1 OCILY19:1 NALM6:1 KMS34:1 OCILY10:1 K562:1 MDAMB231:1 HUVEC:1 HME1:1 SKL:1 CD34:1 HELA:1 SHSY5Y:1 A375:1 HT29:1 JURKAT:1 ASC:1 HA1E:1 SKBR3:1 NPC:1 PC3:1 LNCAP:1 BT20:1 U2OS:1 HEPG2:1
+mycophenolate-mofetil [BRD-K92428153] PC3:1 HA1E:1 MCF7:1 HCC515:1 NPC:1 A375:1 OCILY10:1 SKMEL5:1 OCILY3:1 KMS34:1 BJAB:1 K562:1 HBL1:1 OCILY19:1 NALM6:1 YAPC:1 MCF10A:1 JURKAT:1 HELA:1 HT29:1
+BRD-K31542390 [BRD-K31542390] MCF7:1 SKB:1 PC3:1 VCAP:1 HCC515:1 HEPG2:1 NPC:1 A375:1 HA1E:1 HT29:1
+BRD-K63750851 [BRD-K63750851] HUH7:1 HEPG2:1 U2OS:1 A549:1 MCF7:1 JURKAT:1 MCF10A:1 YAPC:1 HA1E:1 A375:1
+nintedanib [BRD-K49075727] MCF10A:1 SKBR3:1 HME1:1 A549:1 LNCAP:1 BT20:1 HS578T:1 MDAMB231:1 A375:1 HA1E:1 YAPC:1 PC3:1 THP1:1
+--- SSC SKIN SERIES (excluded by design and not fetched: GSE138669, GSE195452) ---
+GSE58095: 1 matrix file(s): ['GSE58095_series_matrix.txt.gz']
+  [GSE58095_series_matrix.txt.gz] samples 102 | platform ['GPL10558'] | submitted May 29 2014 | pubmed 26238292,34654463 | channels {'1': 102} | strategy -
+    title: Dissecting the heterogeneity of skin gene expression patterns in systemic sclerosis.
+    contributors: ['Shervin,,Assassi', 'William,R,Swindell', 'Minghua,,Wu', 'Filemon,K,Tan']
+    summary: We identified fibro-inflammatory and keratin gene expression signatures in systemic sclerosis skin.
+    design: Skin biopsy samples from 61 patients enrolled in the GENISOS cohort or an open label imatinib study (baseline sample) and 36 controls were examined by global gene expression studies.  5 patients were sampled at two time points (early-late).  There is overlap between this data set and GSE47162.
+    table: 47279 rows, first id 'ILMN_1343291', values p01 4.888873 p50 5.879357 p99 12.543746 | samples with supplementary NONE: 102
+    series supplementary: GSE58095_RAW.tar | GSE58095_all_sample_annotatiions.txt.gz | GSE58095_non-normalized.txt.gz
+    source_name: 'skin biopsy':102
+    sample titles: ['PATIENT01', 'PATIENT02', 'PATIENT03', 'PATIENT04', 'PATIENT05', 'PATIENT06']
+    field 'individual' (59 of 102 samples, 59 values): 'PATIENT01':1; 'PATIENT02':1; 'PATIENT03':1; 'PATIENT04':1; 'PATIENT05':1; 'PATIENT06':1; 'PATIENT07':1; 'PATIENT08':1 ...
+    field 'patient' (43 of 102 samples, 43 values): 'PATIENT060':1; 'PATIENT003':1; 'PATIENT061':1; 'PATIENT062':1; 'PATIENT063':1; 'PATIENT064':1; 'PATIENT065':1; 'PATIENT066':1 ...
+    field 'tissue' (59 of 102 samples, 1 values): 'skin biopsy':59
+    field 'group' (39 of 102 samples, 2 values): 'Control':36; 'SSc':3
+    field 'time point' (5 of 102 samples, 2 values): 'Late':4; 'Early':1
+    field 'gender [1 = male, 0 = female]' (59 of 102 samples, 2 values): '0':45; '1':14
+    field 'gender (1=male)' (39 of 102 samples, 2 values): '0':30; '1':9
+    field 'total skin score' (64 of 102 samples, 30 values): '2':6; '4':5; '32':4; '6':4; '14':3; '26':3; '9':3; '20':3 ...
+    field 'on immunosuppressive agents [1 = yes, 0 = no]' (59 of 102 samples, 2 values): '0':45; '1':14
+    field 'race' (98 of 102 samples, 6 values): 'Caucasian':39; 'White':21; 'African American':20; 'Hispanic':10; 'Latino':7; 'SE  Asian':1
+    field 'age at biopsy date' (39 of 102 samples, 39 values): '23.32375086':1; '24.98015058':1; '28.37508556':1; '33.58521561':1; '33.0403833':1; '36.94455852':1; '45.9247091':1; '46.99794661':1 ...
+    field 'age' (58 of 102 samples, 35 values): '50':4; '58':4; '49':3; '46':3; '63':3; '52':3; '24':2; '35':2 ...
+    field 'antibody group' (62 of 102 samples, 5 values): 'None':18; 'ATA':17; 'RNAP':17; 'ACA':7; 'RNP':3
+    field 'skin score at biopsy site' (3 of 102 samples, 2 values): '0':2; '1':1
+    field 'diffuse vs limited' (3 of 102 samples, 2 values): 'Dif':2; 'Lim':1
+    field 'fvc predicted' (59 of 102 samples, 40 values): '47':3; '92':3; '95':3; '80':3; '75':3; '64':3; '76':2; '68':2 ...
+    field 'fvc less than 70' (60 of 102 samples, 2 values): 'No ILD':37; 'ILD':23
+    field 'on immunosurressive agents (1=yes)' (3 of 102 samples, 2 values): '1':2; '0':1
+    field 'dlco predicted' (56 of 102 samples, 43 values): '60':4; '82':2; '44':2; '47':2; '54':2; '67':2; '103':2; '41':2 ...
+    field 'skin score done by mdm' (29 of 102 samples, 16 values): '2':4; '4':3; '6':3; '18':3; '32':3; '14':2; '9':2; '33':1 ...
+    field 'affected (1=yes)' (2 of 102 samples, 2 values): '1':1; '0':1
+    landmark coverage GPL10558: 968 of 978 landmarks
+GSE130955: 1 matrix file(s): ['GSE130955_series_matrix.txt.gz']
+  [GSE130955_series_matrix.txt.gz] samples 91 | platform ['GPL16791'] | submitted May 09 2019 | pubmed 31767698,32603313 | channels {'1': 91} | strategy {'RNA-Seq': 91}
+    title: Global skin gene expression profile of early diffuse cutaneous systemic sclerosis shows a prominent innate and adaptive immunity profile
+    contributors: ['Brian,,Skaug', 'Shervin,,Assassi', 'Lisha,,Zhu', 'W,J,Zheng']
+    summary: RNA from skin biopsies from 48 patients in the Prospective Registry for Early Systemic Sclerosis (PRESS) cohort (mean disease duration 1.3 years) and 33 matched healthy controls was examined by nextGen RNA sequencing
+    design: 3- or 4-mm diameter punch biopsies were obtained from the forearm skin and immersed in RNAlater solution (Qiagen). RNA was extracted using miRNeasy Mini kits (Qiagen).  cDNA libraries were prepared using the Illumina TruSeq stranded Total RNA Library Prep Gold kit, loaded on cBot (Illumina) at a final concentration of 10 pM to perform cluster generation, followed by 2 x 76 bp paired-end sequencing on HiSeq 2500 (Illu
+    table: 0 rows, first id None, values p01 None p50 None p99 None | samples with supplementary NONE: 0
+    series supplementary: GSE130955_RAW.tar
+    source_name: 'skin biopsy, SSc patient':58; 'skin biopsy, healthy control':33
+    sample titles: ['S001_P', 'S002_P', 'S003_P', 'S004_N', 'S005_P', 'S006_P']
+    field 'tissue' (91 of 91 samples, 1 values): 'skin biopsy':91
+    field 'diagnosis' (91 of 91 samples, 2 values): 'SSc patient':58; 'healthy control':33
+    field 'biopsy number for this subject' (91 of 91 samples, 3 values): '1':81; '2':8; '3':2
+    field 'age' (91 of 91 samples, 81 values): '52':4; '53':4; '36':3; '63':2; '39':2; '63.2388774811773':1; '38':1; '46.6748802190281':1 ...
+    field 'original biopsy for this patient' (10 of 91 samples, 8 values): 'S001_P':2; 'S060_P':2; 'S011_P':1; 'S038_P':1; 'S054_P':1; 'S070_P':1; 'S096_P':1; 'S099_P':1
+    field 'sex (0 = female, 1 = male)' (91 of 91 samples, 2 values): '0':57; '1':34
+    field 'race (white = 0, black = 1, asian/asian american = 2, native american = 3, unknown = 4' (89 of 91 samples, 5 values): '0':73; '1':10; '2':3; '3':2; '0, 2':1
+    field 'hispanic latino (no = 0, yes = 1)' (91 of 91 samples, 2 values): '0':75; '1':16
+    field 'local skin score' (58 of 91 samples, 5 values): '2':27; '1':16; '0':7; '3':5; '#REF!':3
+    field 'mrss' (58 of 91 samples, 29 values): '19':4; '24':4; '#REF!':3; '26':3; '9':3; '6':3; '11':3; '18':3 ...
+    field 'fvc %predicted' (45 of 91 samples, 35 values): '79':3; '110':2; '49':2; '75':2; '51':2; '57':2; '103':2; '97':2 ...
+    field 'autoantibody (neither = 0, topoisomerase i = 1, rna polymerase iii = 2)' (45 of 91 samples, 3 values): '2':20; '1':13; '0':12
+    field 'disease duration (years)' (58 of 91 samples, 56 values): '1.12799452429843':2; '1.73853524982888':2; '0.865160848733744':1; '1.82614647501711':1; '2.65023956194387':1; '1.79603011635866':1; '1.8425735797399':1; '2.85831622176591':1 ...
+GSE95065: 1 matrix file(s): ['GSE95065_series_matrix.txt.gz']
+  [GSE95065_series_matrix.txt.gz] samples 33 | platform ['GPL23080'] | submitted Feb 19 2017 | pubmed - | channels {'1': 33} | strategy -
+    title: Expression data from skin biopsies in patients with systemic sclerosis
+    contributors: ['Julio,C,Mantero', 'Robert,,Lafyatis']
+    summary: We used microarrays to explore gene expression in Systemic Sclerosis patients.
+    design: Compilation of skin biopsies gene expression from patients with diffuse cutaneous systemic sclerosis and healthy controls.
+    table: 12136 rows, first id '10000_at', values p01 0.954903823 p50 210.3010107 p99 8547.661508 | samples with supplementary NONE: 0
+    series supplementary: GSE95065_Log2_batch_adjusted.txt.gz | GSE95065_RAW.tar
+    source_name: 'skin, SSc':18; 'skin, normal':15
+    sample titles: ['SSc -SD5_10A', 'SSc -SD5_11A', 'SSc -SD5_16A', 'SSc -SD6_4A', 'SSc -SD6_5A', 'SSc -SD7_1A']
+    field 'tissue' (33 of 33 samples, 1 values): 'skin':33
+    field 'dx' (33 of 33 samples, 2 values): 'diffuse cutaneous systemic sclerosis':18; 'healthy':15
+    field 'batch' (33 of 33 samples, 3 values): '2':22; '5':8; '4':3
+    landmark coverage GPL23080: annot unavailable (HTTPError)
+GSE181549: 1 matrix file(s): ['GSE181549_series_matrix.txt.gz']
+  [GSE181549_series_matrix.txt.gz] samples 339 | platform ['GPL13497'] | submitted Aug 06 2021 | pubmed 34937693 | channels {'1': 339} | strategy -
+    title: Large-scale analysis of longitudinal skin gene expression in systemic sclerosis reveals relationships of immune cell and fibroblast activity with skin thickness and a trend towards normalization over time
+    contributors: ['Brian,,Skaug', 'Marka,A,Lyons', 'William,R,Swindell', 'Gloria,A,Salazar']
+    summary: 339 total forearm skin biopsies were obtained from 113 unique SSc patients and 44 matched healthy controls.  105 SSc patients had a 2nd biopsy, 76 patients had a 3rd biopsy, and 1 patient had a 4th biopsy.  Global gene expression profiling was performed, and differentially expressed genes and cell type-specific signatures in SSc were evaluated for relationships to skin thickness and other clinical variables.  Changes
+    design: 339 total forearm skin biopsies were obtained from 113 unique SSc patients and 44 matched healthy controls.  105 SSc patients had a 2nd biopsy, 76 patients had a 3rd biopsy, and 1 patient had a 4th biopsy.  Global gene expression profiling was performed.
+    table: 28009 rows, first id '(+)E1A_r60_1', values p01 1.62874341 p50 8.242575645 p99 14.7596302 | samples with supplementary NONE: 0
+    series supplementary: GSE181549_RAW.tar
+    source_name: 'skin':339
+    sample titles: ['S269', 'S028', 'S331', 'S116', 'S103', 'S217']
+    field 'condition' (339 of 339 samples, 2 values): 'systemic sclerosis patient':295; 'Control':44
+    field 'sample number within subject' (339 of 339 samples, 4 values): '1':157; '2':105; '3':76; '4':1
+    field 'subject' (295 of 339 samples, 113 values): 'Patient72':4; 'Patient1':3; 'Patient5':3; 'Patient6':3; 'Patient7':3; 'Patient8':3; 'Patient9':3; 'Patient10':3 ...
+    field 'age' (339 of 339 samples, 334 values): '48.6926765441895':2; '40.1861724853516':2; '53.7960319519043':2; '60.5311431884766':2; '61.3552360534668':2; '53.8945922851562':1; '52.3750839233398':1; '68.4188919067383':1 ...
+    field 'gender' (339 of 339 samples, 2 values): 'Female':269; 'Male':70
+    field 'race' (339 of 339 samples, 4 values): 'White':208; 'Black':55; 'Hispanic':54; 'Asian':22
+    field 'mrss at baseline sample' (293 of 339 samples, 37 values): '2':24; '5':21; '6':18; '18':15; '3':14; '17':13; '16':13; '4':12 ...
+    field 'diffuse at baseline sample' (295 of 339 samples, 2 values): 'Diffuse':180; 'Limited':115
+    field 'disease duration' (295 of 339 samples, 280 values): '4.50650262832642':2; '5.65913772583008':2; '4.82409286499023':2; '4.93086910247803':2; '3.08555793762207':2; '5.3032169342041':2; '2.50239562988281':2; '5.76043796539307':2 ...
+    field 'anti-topoisomerase i' (295 of 339 samples, 2 values): 'Negative':244; 'Positive':51
+    field 'anti-rna polymerase iii' (295 of 339 samples, 2 values): 'Negative':236; 'Positive':59
+    field 'anti-centromere' (295 of 339 samples, 2 values): 'Negative':255; 'Positive':40
+    landmark coverage GPL13497: annot unavailable (HTTPError)
+GSE125362: 1 matrix file(s): ['GSE125362_series_matrix.txt.gz']
+  [GSE125362_series_matrix.txt.gz] samples 12 | platform ['GPL6480'] | submitted Jan 18 2019 | pubmed 30920766 | channels {'2': 12} | strategy -
+    title: A Machine Learning Classifier for Assigning Individual Patients with Systemic Sclerosis to Intrinsic Molecular Subsets
+    contributors: []
+    summary: DNA microarray and RNA-seq were performed on samples from four controls and eight SSc patients for testing the performance of intrinsic subset classification in two different gene expression profiling platforms. N0901, N0903, N1002, N1003, SSc0882, SSc0916, SSc0918, S0920 have previously been deposited on NCBI SRA at PRJNA237826. The remaining four SSc RNA-seq samples will be available at PRJNAXXXXXX.
+    design: Microarray gene expression and intrinsic subset assignment were measured in 8 SSc patient and 4 control biopsies
+    table: 22260 rows, first id 'A_23_P100001', values p01 -3.122 p50 0.025 p99 5.678 | samples with supplementary NONE: 0
+    series supplementary: GSE125362_RAW.tar
+    source_name: 'biopsy from Systemic Sclerosis (SSc) patient':8; 'biopsy from control':4
+    sample titles: ['NormN0901', 'NormN0903', 'NormN1002', 'NormN1003', 'S_SSc0882', 'S_SSc0916']
+    field 'tissue' (12 of 12 samples, 1 values): 'skin':12
+    landmark coverage GPL6480: 975 of 978 landmarks
+GSE76886: 1 matrix file(s): ['GSE76886_series_matrix.txt.gz']
+  [GSE76886_series_matrix.txt.gz] samples 359 | platform ['GPL6480'] | submitted Jan 14 2016 | pubmed - | channels {'2': 359} | strategy -
+    title: Hinchcliff 359 microarray dataset
+    contributors: []
+    summary: This SuperSeries is composed of the SubSeries listed below.
+    design: Refer to individual Series  Attached to this SuperSeries page is a data matrix of all 359 samples included in this SuperSeries. The values are given as Log(base2) of R/G Lowess Normalized Ratio (Mean) representing reference/test.
+    table: 24324 rows, first id 'A_23_P100001', values p01 -5.371 p50 -0.033 p99 3.661 | samples with supplementary NONE: 0
+    series supplementary: GSE76886_RAW.tar | GSE76886_data_matrix_359samples.txt.gz
+    source_name: 'Sample: Human Tissue Biopsy':194; 'MH_Norm_01_LA':1; 'MH_Norm_01_LF':1; 'MH_Norm_02_LA':1; 'MH_Norm_02_RF':1; 'MH_Norm_03_RA':1; 'MH_Norm_03_RF':1; 'MH_Norm_04_RA':1 ...
+    sample titles: ['MH_Norm_01_LA', 'MH_Norm_01_LF', 'MH_Norm_02_LA', 'MH_Norm_02_RF', 'MH_Norm_03_RA', 'MH_Norm_03_RF']
+    field 'sample type' (83 of 359 samples, 3 values): 'SSc MMF patient':50; 'Normal Control':20; 'Registry Patient':13
+    field 'tissue' (359 of 359 samples, 5 values): 'skin biopsy':277; 'systemic sclerosis human forearm skin biopsy':40; 'systemic sclerosis human back skin biopsy':40; 'normal human forearm skin biopsy':1; 'normal human back skin biopsy':1
+    field 'disease state' (277 of 359 samples, 5 values): 'SSc patient':172; 'Systemic Sclerosis':63; 'normal':20; 'normal control':18; 'morphea patient':4
+    field 'subject' (277 of 359 samples, 90 values): 'SScMH_01':10; 'SScMH_03':8; 'SScMH_06':8; 'SScMH_07':8; 'SScMH_10':8; 'SScMH_12':8; 'SScMH_14':8; 'SScMH_16':8 ...
+    field 'treatment' (244 of 359 samples, 15 values): 'NA':77; 'MMF':69; 'mycophenolate mofetil':50; 'MTX':11; 'Rituximab':6; 'NR':5; 'MMF, MTX':5; 'MMF, Plaquenil':4 ...
+    landmark coverage GPL6480: 975 of 978 landmarks
+GSE9285: 1 matrix file(s): ['GSE9285_series_matrix.txt.gz']
+  [GSE9285_series_matrix.txt.gz] samples 75 | platform ['GPL5981'] | submitted Oct 10 2007 | pubmed 18648520,25569146,22245215 | channels {'2': 75} | strategy -
+    title: Gene Expression Profiling of Scleroderma Skin
+    contributors: []
+    summary: We have analyzed the genome-wide patterns of gene expression with DNA microarrays in skin biopsies from 34 subjects:  17 patients with SSc with diffuse scleroderma (dSSc), 7 patients with SSc with limited scleroderma (lSSc), 3 patients with morphea and 6 healthy controls.  In total, 61 skin biopsies were analyzed.  The addition of 14 technical replicates resulted in a total of 75 microarray hybridizations.  The Intri
+    design: common reference design; we used Universal Human Reference RNA (Stratagene) as our reference for every array; For every hybridization sample RNA was always labeled with Cy3, and reference RNA was always labeled with Cy5; Microarray hybridizations were performed for 61 RNA samples from 34 subjects resulting 61 hybridizations.  Fourteen replicate hybridizations were added, resulting in a total of 75 microarray hybridiz
+    table: 28495 rows, first id 'A_23_P100001', values p01 -2.885 p50 -0.025 p99 1.906 | samples with supplementary NONE: 0
+    series supplementary: GSE9285_Intrinsic_scleroderma_genes.txt | GSE9285_RAW.tar
+    source_name: 'patient A2-forearm biopsy':3; 'patient F1-leg biopsy':3; 'normal control G2-forearm biopsy':3; 'patient A2-back biopsy':2; 'patient A8-forearm biopsy':2; 'patient B4-back biopsy':2; 'patient B4-forearm biopsy':2; 'patient B5-back biopsy':2 ...
+    sample titles: ['dSSc1-B', 'dSSc1-FA', 'dSSc2-B(a)', 'dSSc2-B(b)', 'dSSc2-FA(a)', 'dSSc2-FA(b)']
+    field '(no field name)' (75 of 75 samples, 34 values): '49 yo WM, 2.5 years of dSSc':5; '58 yo WM, 9 years of dSSc':4; '47 yo WF, normal control':4; '58 yo AM, 2.5 years of dSSc':3; '47 yo WF, 6 years of dSSc':3; '49 yo WF, 10 years of dSSc':3; '67 yo WF, 3 years of lSSc/CREST':3; '67 yo WF, 5 years of lSSc/CREST':3 ...
+    landmark coverage GPL5981: annot unavailable (HTTPError)
+GSE32413: 1 matrix file(s): ['GSE32413_series_matrix.txt.gz']
+  [GSE32413_series_matrix.txt.gz] samples 89 | platform ['GPL4133'] | submitted Sep 27 2011 | pubmed 22318389,25569146 | channels {'2': 89} | strategy -
+    title: Stable gene expression of serial skin biopsies defines patient subsets in diffuse cutaneous systemic sclerosis
+    contributors: ['S,,Pendergrass', 'M,,Whitfield']
+    summary: Systemic sclerosis (SSc) shows complex clinical manifestations including progressive skin and internal organ fibrosis. SSc can be divided into 'intrinsic subsets' by gene expression suggesting patient-specific heterogeneity in pathogenesis or temporal evolution of disease.  Here we validate these subsets using an independent patient population, and test whether the genes vary over time with patients changing subsets 
+    design: Skin biopsies were analyzed from 13 dSSc patients enrolled in an open label study of rituximab, 9 dSSc patients not treated with rituximab, and 9 healthy controls.
+    table: 45220 rows, first id '1', values p01 -3.944 p50 0.0 p99 3.285 | samples with supplementary NONE: 89
+    series supplementary: GSE32413_Everything_SP_TB_80perc_2OR3_neg1.txt.gz | GSE32413_RAW.tar | GSE32413_clinical_data.xls.gz
+    source_name: 'dSSc_3_FA_r, Non Rituximab Patient tissue':3; 'RIT14_6MOS_FA_r, Rituximab Patient tissue':2; 'RIT14_BASE_FA_r, Rituximab Patient tissue':2; 'dSSc_3_B_r, Non Rituximab Patient tissue':2; 'NormalRIT_1, Normal Non-SSc Patient':1; 'NormalRIT_1_r, Normal Non-SSc Patient, replicate':1; 'NormalRIT_1_r, Normal Non-SSc Patient':1; 'NormalRIT_2, Normal Non-SSc Patient, replicate':1 ...
+    sample titles: ['NormalRIT_NO5-1', 'NormalRIT_NO5-1_replicate', 'NormalRIT_NO5-1_TB_SAPgrid', 'NormalRIT_NO5-2_replicate', 'NormalRIT_NO5-2_SAP_SAPgrid', 'NormalRIT_NO5-3']
+    field 'biopsy' (89 of 89 samples, 1 values): 'skin':89
+    landmark coverage GPL4133: 969 of 978 landmarks
+GSE45485: 1 matrix file(s): ['GSE45485_series_matrix.txt.gz']
+  [GSE45485_series_matrix.txt.gz] samples 83 | platform ['GPL6480'] | submitted Mar 25 2013 | pubmed 23677167,25569146 | channels {'2': 83} | strategy -
+    title: Molecular Signatures in Skin Associated with Clinical Improvement During Mycophenolate Treatment in Systemic Sclerosis   
+    contributors: ['Monique,,Hinchcliff', 'J.Chiang-Ching,,Huang', 'Tammara,A,Wood', 'J.Matthew,,Mahoney']
+    summary: Skin gene expression signatures, including intrinsic subset, are associated with skin score/MRSS improvement during mycophenolate mofetil (MMF) treatment.         
+    design: Gene expression and intrinsic subset assignment were measured in SSc patients amd  controls at baseline, and from biopsies of MMF-treated patients.
+    table: 23530 rows, first id 'A_23_P100001', values p01 -5.405 p50 -0.032 p99 3.65 | samples with supplementary NONE: 0
+    series supplementary: GSE45485_RAW.tar
+    source_name: 'MH_Norm_01_LA':1; 'MH_Norm_01_LF':1; 'MH_Norm_02_LA':1; 'MH_Norm_02_RF':1; 'MH_Norm_03_RA':1; 'MH_Norm_03_RF':1; 'MH_Norm_04_RA':1; 'MH_Norm_04_RF':1 ...
+    sample titles: ['MH_Norm_01_LA', 'MH_Norm_01_LF', 'MH_Norm_02_LA', 'MH_Norm_02_RF', 'MH_Norm_03_RA', 'MH_Norm_03_RF']
+    field 'sample type' (83 of 83 samples, 3 values): 'SSc MMF patient':50; 'Normal Control':20; 'Registry Patient':13
+    field 'disease state' (83 of 83 samples, 2 values): 'Systemic Sclerosis':63; 'normal':20
+    field 'tissue' (83 of 83 samples, 1 values): 'skin biopsy':83
+    field 'subject' (83 of 83 samples, 32 values): 'SScMH_03':6; 'SScMH_04':6; 'SScMH_06':6; 'SScMH_07':6; 'SScMH_10':6; 'SScMH_05':4; 'SScMH_08':4; 'SScMH_12':4 ...
+    field 'treatment' (50 of 83 samples, 1 values): 'mycophenolate mofetil':50
+    landmark coverage GPL6480: 975 of 978 landmarks
+GSE59785: 1 matrix file(s): ['GSE59785_series_matrix.txt.gz']
+  [GSE59785_series_matrix.txt.gz] samples 82 | platform ['GPL6480'] | submitted Jul 25 2014 | pubmed 23677167,25569146 | channels {'2': 82} | strategy -
+    title: Mycophenolate Treatment in Systemic Sclerosis
+    contributors: ['Monique,,Hinchcliff', 'Michael,,Whitfield']
+    summary: Skin gene expression signatures, including intrinsic subset, are associated with improvement during Mycophenolate mofetil (MMF) treatment.
+    design: Longitudinal SSc patient biopsies and controls were integrated into 83 sample dataset totaling 165 arrays for gene expression and analysis
+    table: 24044 rows, first id 'A_23_P100001', values p01 -1.44 p50 -0.0193 p99 1.38 | samples with supplementary NONE: 0
+    series supplementary: GSE59785_RAW.tar
+    source_name: 'MH_Norm_10_LA':1; 'MH_Norm_10_LF':1; 'SScMH_03_24mo_LA':1; 'SScMH_03_24mo_LF':1; 'SScMH_04_24mo_LA':1; 'SScMH_04_24mo_LF':1; 'SScMH_06_24mo_RA':1; 'SScMH_06_24mo_RF':1 ...
+    sample titles: ['MH_Norm_10_LA', 'MH_Norm_10_LF', 'SScMH_03_24mo_LA', 'SScMH_03_24mo_LF', 'SScMH_04_24mo_LA', 'SScMH_04_24mo_LF']
+    field 'tissue' (82 of 82 samples, 4 values): 'systemic sclerosis human forearm skin biopsy':40; 'systemic sclerosis human back skin biopsy':40; 'normal human forearm skin biopsy':1; 'normal human back skin biopsy':1
+    landmark coverage GPL6480: 975 of 978 landmarks
+=== SSC-MEK PHASE A REPORT END ===
